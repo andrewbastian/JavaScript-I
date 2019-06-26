@@ -69,10 +69,7 @@ console.log(car33);
 
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
-let lastCar = inventory.lenght;
-for (let i = 0; i === lastCar.length; i++) {
-  lastCar[i];
-}
+let lastCar = inventory[inventory.length - 1];
 console.log(lastCar);
 
 // ==== Challenge 3 ====
